@@ -1,0 +1,142 @@
+{
+  "users": {
+    "12345": {
+      "username": "test_user",
+      "first_name": "Test",
+      "last_name": "User",
+      "credits": 5,
+      "join_date": "2025-07-10T16:12:18.555045",
+      "last_activity": "2025-07-10T16:12:18.555057",
+      "usage_count": 0,
+      "research_count": 0,
+      "search_count": 0,
+      "translation_count": 0,
+      "total_spent_credits": 0,
+      "status": "active"
+    },
+    "1000": {
+      "username": "user_0",
+      "first_name": "User0",
+      "last_name": "Test",
+      "credits": 15,
+      "join_date": "2025-07-10T16:13:05.631976",
+      "last_activity": "2025-07-10T16:13:05.631987",
+      "usage_count": 0,
+      "research_count": 0,
+      "search_count": 0,
+      "translation_count": 0,
+      "total_spent_credits": 0,
+      "status": "active"
+    },
+    "1001": {
+      "username": "user_1",
+      "first_name": "User1",
+      "last_name": "Test",
+      "credits": 10,
+      "join_date": "2025-07-10T16:13:05.632454",
+      "last_activity": "2025-07-10T16:13:05.632455",
+      "usage_count": 0,
+      "research_count": 0,
+      "search_count": 0,
+      "translation_count": 0,
+      "total_spent_credits": 0,
+      "status": "active"
+    },
+    "1002": {
+      "username": "user_2",
+      "first_name": "User2",
+      "last_name": "Test",
+      "credits": 10,
+      "join_date": "2025-07-10T16:13:05.633388",
+      "last_activity": "2025-07-10T16:13:05.633390",
+      "usage_count": 0,
+      "research_count": 0,
+      "search_count": 0,
+      "translation_count": 0,
+      "total_spent_credits": 0,
+      "status": "active"
+    }
+  },
+  "tokens": {
+    "B76F0E1612C14990AD": {
+      "credits": 10,
+      "created_date": "2025-07-10T16:12:18.555654",
+      "expiry_date": "2025-08-09T16:12:18.555647",
+      "description": "Test Token",
+      "used": false,
+      "used_by": null,
+      "used_date": null
+    },
+    "F2A62714B5A14B3798": {
+      "credits": 5,
+      "created_date": "2025-07-10T16:13:05.634454",
+      "expiry_date": "2025-08-09T16:13:05.634447",
+      "description": "Token 0",
+      "used": true,
+      "used_by": "1000",
+      "used_date": "2025-07-10T16:13:05.638027"
+    },
+    "16148A15C8394F8E84": {
+      "credits": 5,
+      "created_date": "2025-07-10T16:13:05.635223",
+      "expiry_date": "2025-08-09T16:13:05.635216",
+      "description": "Token 1",
+      "used": false,
+      "used_by": null,
+      "used_date": null
+    },
+    "C8A2DD2575DD496CB6": {
+      "credits": 5,
+      "created_date": "2025-07-10T16:13:05.636809",
+      "expiry_date": "2025-08-09T16:13:05.636802",
+      "description": "Token 2",
+      "used": false,
+      "used_by": null,
+      "used_date": null
+    }
+  },
+  "admin_users": [
+    "java88449@gmail.com"
+  ],
+  "statistics": {
+    "total_users": 4,
+    "total_researches": 0,
+    "total_searches": 0,
+    "total_translations": 0,
+    "total_tokens_generated": 4,
+    "total_tokens_used": 1,
+    "bot_start_date": "2024-01-01T00:00:00",
+    "daily_stats": {
+      "2025-07-10": {
+        "new_users": 4,
+        "researches": 0,
+        "searches": 0,
+        "translations": 0,
+        "tokens_used": 1
+      }
+    },
+    "monthly_stats": {}
+  },
+  "settings": {
+    "default_credits": 0,
+    "admin_credits": 999999,
+    "max_research_length": 6000,
+    "max_search_results": 5,
+    "token_length": 18,
+    "backup_frequency": 24,
+    "auto_cleanup_days": 30
+  },
+  "logs": {
+    "last_backup": "2025-07-10T16:13:05.637767",
+    "last_maintenance": null,
+    "error_count": 0,
+    "last_error": null
+  },
+  "features": {
+    "research_enabled": true,
+    "search_enabled": true,
+    "translation_enabled": true,
+    "image_search_enabled": true,
+    "web_search_enabled": true
+  }
+}
